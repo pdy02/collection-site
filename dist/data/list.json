@@ -1,0 +1,70 @@
+{
+  "list": [
+    {
+      "name": "前端",
+      "boxs": [
+        {
+          "name": "构建工具",
+          "list": [
+            {
+              "title": "vite",
+              "url": "https://vitejs.dev/",
+              "logoUrl": "/logo/vite.svg",
+              "themeColor": "#646cff"
+            }, {
+              "title": "webpack",
+              "url": "https://webpack.js.org/",
+              "logoUrl": "https://www.webpackjs.com/icon-square-small.85ba630cf0c5f29ae3e3.svg",
+              "themeColor": "#1c78c0"
+            }
+          ]
+        }, {
+          "name": "框架/库",
+          "list": [
+            {
+              "title": "react",
+              "url": "https://react.docschina.org/",
+              "logoUrl": "/logo/react.svg",
+              "themeColor": "#61dafb"
+            }, {
+              "title": "vue",
+              "url": "https://cn.vuejs.org/",
+              "logoUrl": "https://cn.vuejs.org/images/logo.png",
+              "themeColor": "#42b983"
+            }
+          ]
+        }, {
+          "name": "UI库",
+          "list": [
+            {
+              "title": "ant-design",
+              "url": "https://ant-design.antgroup.com/index-cn",
+              "logoUrl": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+              "themeColor": "#0170fe"
+            }, {
+              "title": "element-ui",
+              "url": "https://element-plus.org/zh-CN/#/zh-CN",
+              "logoUrl": "/logo/element-ui.svg",
+              "themeColor": "#409eff"
+            }, {
+              "title": "vant",
+              "url": "https://vant-contrib.gitee.io/vant/#/zh-CN/",
+              "logoUrl": "https://img.yzcdn.cn/vant/logo.png",
+              "themeColor": "#07c160"
+            }
+          ]
+        }, {
+          "name": "Ai工具",
+          "list": [
+            {
+              "title": "kimi",
+              "url": "https://kimi.moonshot.cn/",
+              "logoUrl": "https://kimi.moonshot.cn/favicon.ico",
+              "themeColor": "#000000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
