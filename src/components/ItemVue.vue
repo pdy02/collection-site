@@ -3,6 +3,7 @@
         <a class="box-item" :href="url" target="_blank" :style="{'--theme-color':themeColor}">
             <p class="df">
                 <img :src="logoUrl" 
+                    @error="imgLoadError"
                     :alt="title" width="25" height="25"
                 />
                 <span>{{ title }}</span>
@@ -23,6 +24,16 @@ defineProps<{
     themeColor: string
 }>()
 
+// TODO: 图片加载失败处理
+const BASE_URL = import.meta.env.BASE_URL;
+const imgLoadError = (e: Event) => {
+    // 保存原始src
+    const img = e.target as HTMLImageElement;
+    const __src = img.getAttribute('src');
+    if(__src?.startsWith('/logo')){ // 是以 "/logo" 开头的本地图片才切换。
+        img.src = `https://pdy02.github.io${BASE_URL}${__src}`;
+    }
+}
 </script>
 
 <style scoped lang="scss">
